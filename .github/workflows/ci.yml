@@ -1,10 +1,7 @@
 name: CI(continuous integration)
 
 
-on:
-  pull_request: 
-    branches: 
-      - "*"
+on: [push]
 
 jobs:
   pipeline-ci:
