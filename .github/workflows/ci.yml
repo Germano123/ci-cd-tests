@@ -23,7 +23,6 @@ jobs:
 
       - uses: actions/checkout@master
       - name: Notify CI process
-        if: always()
         uses: appleboy/discord-action@master
         with:
           webhook_id: ${{ secrets.WEBHOOK_ID }}
